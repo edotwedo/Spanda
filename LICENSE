@@ -1,0 +1,28 @@
+SPANDA DUAL LICENSE AGREEMENT
+
+Spanda is dual-licensed under the GNU General Public License v3.0 (for source code) and the Spanda Pro Commercial License (for official pre-built binaries, automated distribution packages, and customer bundles).
+
+==============================================================================
+1. COMMERCIAL / SPANDA PRO PRE-BUILT BINARY LICENSE
+==============================================================================
+If you download, purchase, install, or run official pre-compiled distributions of Spanda (Spanda.exe, Spanda-v*.zip), your use is governed by the Spanda Pro Commercial License:
+
+- Single-Seat Lifetime License: $29.00 (one-time purchase).
+- Official purchase link: https://buy.stripe.com/7sYcN72KS2CT36D75f9AA07
+- Grants perpetual, royalty-free rights to run Spanda on your personal, commercial, business, agency, and institutional machines.
+- Institutional & Educational Use: Educational institutions, universities, corporations, non-profits, and agencies utilizing official pre-compiled releases must acquire one commercial license per operator seat.
+- Unlocks full multi-tier AI cascade (local Ollama + OpenRouter PKCE 1-click), multi-campaign switching, unlimited isolated browser profiles, and priority lead dragnet updates.
+- No telemetry, no recurring subscriptions, no per-lead fees.
+- Official binaries and customer bundles may not be mirrored, re-sold, sublicensed, or re-distributed without express written permission.
+
+==============================================================================
+2. OPEN SOURCE / SOURCE CODE LICENSE (GPLv3)
+==============================================================================
+The underlying source code of Spanda in this repository is licensed under the GNU General Public License version 3.0 (GPLv3):
+
+Copyright (c) 2026 edotwedo
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details:
+https://www.gnu.org/licenses/gpl-3.0.html
