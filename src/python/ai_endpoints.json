@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "refresh_url": "",
+  "dev_note_url": "",
+  "keyless_daily_cap": 40,
+  "keyless": [
+    {"id": "kilo-auto", "url": "https://ai-gateway.kilo.ai/api/v1/chat/completions", "model": "kilo-auto/free"},
+    {"id": "kilo-nemotron", "url": "https://ai-gateway.kilo.ai/api/v1/chat/completions", "model": "nvidia/nemotron-3-super-120b-a12b:free"},
+    {"id": "kilo-cohere", "url": "https://ai-gateway.kilo.ai/api/v1/chat/completions", "model": "cohere/north-mini-code:free"},
+    {"id": "ovh-120b", "url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/chat/completions", "model": "gpt-oss-120b"},
+    {"id": "ovh-qwen", "url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/chat/completions", "model": "Qwen3.8-27B"},
+    {"id": "ovh-qwen-397b", "url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/chat/completions", "model": "Qwen3.5-397B-A17B"}
+  ],
+  "key_providers": [
+    {
+      "id": "groq",
+      "name": "Groq",
+      "url": "https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.3-70b-versatile",
+      "key_page": "https://console.groq.com/keys",
+      "key_prefix": "gsk_",
+      "steps": [
+        "Click 'Get a free Groq key' below. Sign in with Google or email.",
+        "Click 'Create API Key', name it Spanda, and click Submit.",
+        "Copy the key that starts with gsk_ and paste it here."
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+      "model": "gemini-2.5-flash",
+      "key_page": "https://aistudio.google.com/apikey",
+      "key_prefix": "AIza",
+      "steps": [
+        "Click 'Get a free Gemini key' below and sign in with your Google account.",
+        "Click 'Create API key'.",
+        "Copy the key that starts with AIza and paste it here."
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/chat/completions",
+      "model": "openrouter/free",
+      "key_page": "https://openrouter.ai/keys",
+      "key_prefix": "sk-or-",
+      "one_click": true,
+      "steps": [
+        "Click 'Sign in with OpenRouter'. Your browser opens.",
+        "Sign in with Google, GitHub or email, then click Authorize.",
+        "Come back to Spanda. Your key is saved automatically."
+      ]
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "url": "https://api.cerebras.ai/v1/chat/completions",
+      "model": "llama-3.3-70b",
+      "key_page": "https://cloud.cerebras.ai/platform",
+      "key_prefix": "csk-",
+      "steps": [
+        "Click 'Get a free Cerebras key' below and sign in.",
+        "Open 'API Keys' and click 'Generate API key'.",
+        "Copy the key that starts with csk- and paste it here."
+      ]
+    }
+  ],
+  "ollama": {"url": "http://127.0.0.1:11434"}
+}

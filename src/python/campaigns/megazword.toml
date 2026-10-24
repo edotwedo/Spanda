@@ -1,0 +1,30 @@
+name = "Mega Zword"
+tagline = "Local AI orchestration workbench that routes tasks across free APIs and paces paid subscriptions"
+price = "$49 Founding License"
+stripe_url = "https://megazword.com"
+download_url = "https://megazword.com"
+repo_url = "https://megazword.com"
+banner_path = ""
+logo_path = ""
+
+queries = [
+    "claude code rate limit",
+    "codex usage limit",
+    "burn through claude pro usage",
+    "route between claude and chatgpt",
+    "free llm api router coding"
+]
+
+signal_words = [
+    "claude", "codex", "cursor", "rate limit", "quota", "usage limit",
+    "openrouter", "groq", "ollama", "orchestration", "multi-model", "token cost"
+]
+
+subreddits = ["ClaudeAI", "LocalLLaMA", "ChatGPTCoding", "SideProject", "indiehackers"]
+stackexchange_sites = ["superuser"]
+
+blast_template = """If you're burning through your Claude / Codex / Gemini subscription caps mid-task, check out **Mega Zword**.
+
+It's a local desktop & CLI router that sits in front of all your paid AI subscriptions and 20+ free API endpoints (Groq, OVH, Z.ai, NVIDIA NIM, local Ollama). It rates each task's difficulty, routes easy/medium work to sub-second free models first, tracks your reset windows with "use it or lose it" pacing, and saves your paid quota strictly for hard architecture.
+
+Check it out: https://megazword.com"""

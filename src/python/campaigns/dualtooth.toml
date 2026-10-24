@@ -1,0 +1,67 @@
+name = "Dualtooth"
+tagline = "1-Click Native Hardware Deck to Sync Bluetooth & BLE 5.0+ IRK Keys Between Windows & Linux"
+price = "$4.99 Lifetime License"
+stripe_url = "https://buy.stripe.com/eVqaEZ0CKa5l0Yvahr9AA03"
+download_url = "https://dualtooth.com"
+repo_url = "https://github.com/edotwedo/Dualtooth"
+banner_path = "C:/Users/mrmar/Dualtooth/docs/banner.jpg"
+logo_path = "C:/Users/mrmar/Dualtooth/docs/logo.jpg"
+
+queries = [
+    "bluetooth dual boot",
+    "bluetooth pair windows linux",
+    "bluetooth headphones dual boot",
+    "bluetooth mouse dual boot",
+    "steam deck dual boot bluetooth",
+    "rog ally dual boot bluetooth",
+    "bazzite bluetooth unpair",
+    "logitech mx master dual boot",
+    "airpods dual boot windows linux",
+    "xbox controller dual boot bluetooth",
+]
+
+signal_words = [
+    "bluetooth",
+    "bluez",
+    "pairing",
+    "re-pair",
+    "unpair",
+    "dual boot",
+    "dual-boot",
+    "dualboot",
+    "mx master",
+    "airpods",
+    "steam deck",
+    "rog ally",
+    "legion go",
+    "bazzite",
+    "xbox controller",
+    "dualsense",
+]
+
+subreddits = [
+    "SteamDeck",
+    "ROGAlly",
+    "LegionGo",
+    "Bazzite",
+    "linux_gaming",
+    "linuxquestions",
+    "linux4noobs",
+    "Ubuntu",
+    "Fedora",
+    "archlinux",
+    "linuxmint",
+    "techsupport",
+    "pcmasterrace",
+    "keyboards",
+]
+
+stackexchange_sites = [
+    "askubuntu",
+    "superuser",
+    "unix",
+]
+
+blast_template = """Every time you switch between Windows and Linux, the newly booted OS negotiates a fresh 128-bit link key (and for modern BLE 5.0 devices, a new Identity Resolving Key / `IRK`), which invalidates the pairing key stored in the other OS.
+
+Instead of manual `psexec` registry hex dumping or broken scripts, I built **Dualtooth** (https://dualtooth.com) — a standalone offline Windows tool that syncs Classic LinkKeys, BLE LongTermKeys, and IRKs into BlueZ in 1 click, with automatic BitLocker USB export and `--undo` rollback."""

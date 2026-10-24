@@ -1,0 +1,43 @@
+name = "Local Biz Sniper (Tacoma/Seattle)"
+tagline = "Hyper-Local Service Recommendation Radar (r/Tacoma, r/Seattle, r/Puyallup)"
+price = "$99/mo Local Territory"
+stripe_url = "https://buy.stripe.com/9B63cx3OWb9p6iPgFP9AA01"
+download_url = "https://github.com/edotwedo"
+repo_url = "https://github.com/edotwedo"
+banner_path = "C:/Users/mrmar/interference/docs/banner.jpg"
+logo_path = "C:/Users/mrmar/interference/docs/logo.jpg"
+
+queries = [
+    "recommend mechanic tacoma",
+    "recommend plumber seattle",
+    "looking for contractor tacoma",
+    "anyone know a good electrician seattle",
+]
+
+signal_words = [
+    "recommend",
+    "recommendation",
+    "looking for",
+    "anyone know",
+    "honest",
+    "affordable",
+    "tacoma",
+    "seattle",
+    "puyallup",
+    "pierce county",
+    "quote",
+    "repair",
+]
+
+subreddits = [
+    "Tacoma",
+    "Seattle",
+    "SeattleWA",
+    "PuyallupWA",
+]
+
+stackexchange_sites = [
+    "diy",
+]
+
+blast_template = """Hey neighbor! Saw your post looking for local help in the Tacoma/Seattle area. We have an opening this week and do flat-rate upfront quotes with zero surprise fees. Happy to take a look or give you a quick ballpark estimate over DM!"""

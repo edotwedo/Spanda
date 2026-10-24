@@ -1,0 +1,59 @@
+name = "RobinTHood"
+tagline = "The $0 Free AI Code Aggregator // Steal From the Rich API Landlords, Give to the Developers"
+price = "100% Free / $4.99 Pro Lifetime"
+stripe_url = "https://buy.stripe.com/cNi9AV0CK91h36D9dn9AA05"
+download_url = "https://github.com/edotwedo/RobinTHood"
+repo_url = "https://github.com/edotwedo/RobinTHood"
+banner_path = "C:/Users/mrmar/robincode/logo.jpg"
+logo_path = "C:/Users/mrmar/robincode/logo.jpg"
+
+queries = [
+    "free ai coding assistant",
+    "cursor alternative free",
+    "copilot alternative free open source",
+    "offline coding assistant ollama",
+    "best local llm for coding",
+    "free ai code generator no api key",
+    "keyless llm code review",
+    "qwen 2.5 coder vs claude",
+    "deepseek coder local setup",
+]
+
+signal_words = [
+    "copilot",
+    "cursor",
+    "api key",
+    "free tier",
+    "rate limit",
+    "ollama",
+    "qwen",
+    "deepseek",
+    "offline ai",
+    "local llm",
+    "code assistant",
+    "code generator",
+    "unit tests",
+    "refactor",
+]
+
+subreddits = [
+    "LocalLLaMA",
+    "programming",
+    "learnprogramming",
+    "cscareerquestions",
+    "ChatGPTCoding",
+    "webdev",
+    "dotnet",
+    "python",
+    "rust",
+    "golang",
+    "devops",
+    "linux4noobs",
+]
+
+stackexchange_sites = [
+    "stackoverflow",
+    "softwarerecs",
+    "superuser",
+    "serverfault",
+]

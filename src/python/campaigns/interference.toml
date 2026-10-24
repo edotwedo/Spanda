@@ -1,0 +1,47 @@
+name = "Interference Pattern"
+tagline = "24-bit Truecolor Braille Wave-Interference Social Radar & Automated CDP Ad-Blaster Deck"
+price = "$29 one-time"
+stripe_url = "https://buy.stripe.com/9B63cx3OWb9p6iPgFP9AA01?__prefilled_amount=900"
+download_url = "https://github.com/edotwedo/Dualtooth"
+repo_url = "https://github.com/edotwedo"
+banner_path = ""
+logo_path = ""
+
+queries = [
+    "gummysearch alternative",
+    "reddit lead generation tool indie hacker",
+    "social listening tool for developers",
+    "find customers on reddit hacker news",
+]
+
+signal_words = [
+    "gummysearch",
+    "reddit",
+    "leads",
+    "social listening",
+    "indie",
+    "marketing",
+    "saas",
+    "customers",
+    "f5bot",
+    "syften",
+]
+
+subreddits = [
+    "SaaS",
+    "indiehackers",
+    "SideProject",
+    "EntrepreneurRideAlong",
+    "microsaas",
+]
+
+stackexchange_sites = [
+    "softwarerecs",
+]
+
+blast_template = """Built an open-source / indie alternative to $99/mo social-listening SaaS tools called **Interference Pattern (`ifp`)** — a terminal + CDP browser sniper deck with a 15-FPS 24-bit Truecolor Unicode Braille wave-interference oscilloscope header.
+
+It scans Reddit (via PullPush), Hacker News, StackExchange, and GitHub Issues in parallel, scores Constructive Interference (0-100%), remixes custom replies using free LLM endpoints, and auto-fires via an isolated Chrome CDP port (`127.0.0.1:9222`).
+
+- **GitHub**: https://github.com/edotwedo
+- **Supporter / Pro Link ($9)**: https://buy.stripe.com/9B63cx3OWb9p6iPgFP9AA01?__prefilled_amount=900"""
