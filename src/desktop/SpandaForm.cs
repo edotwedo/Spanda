@@ -370,7 +370,7 @@ blaster.open_cartridge_login_window({{JsonSerializer.Serialize(cPath)}})
         if (File.Exists(Path.Combine(subDir, "radar.py"))) return subDir;
         var userPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "interference");
         if (File.Exists(Path.Combine(userPath, "radar.py"))) return userPath;
-        return @"C:\Users\mrmar\interference";
+        return baseDir;
     }
 
     static string ResolvePythonExe()
@@ -382,8 +382,7 @@ blaster.open_cartridge_login_window({{JsonSerializer.Serialize(cPath)}})
         if (File.Exists(p)) return p;
         var userVenv = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "mega-zword", ".venv", "Scripts", "python.exe");
         if (File.Exists(userVenv)) return userVenv;
-        const string philVenv = @"C:\Users\mrmar\mega-zword\.venv\Scripts\python.exe";
-        if (File.Exists(philVenv)) return philVenv;
+        
         return "python.exe";
     }
 
